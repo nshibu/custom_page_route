@@ -2,7 +2,7 @@ name: custom_page_route
 description: A cutom animation for page route.
 version: 0.0.1
 author: Shibu N<contact@shibu.dev>
-homepage:
+homepage: github.com/nshibu/custom_page_route.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

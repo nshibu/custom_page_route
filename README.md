@@ -1,14 +1,35 @@
 # custom_page_route
 
-A new Flutter package project.
+A cutom animation for page route.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+** CustomPageRoute class constructor  **
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+CustomPageRoute({
+    required Widget child,
+    AxisDirection axisDirection = AxisDirection.right,
+    Duration transitionDuration = const Duration(milliseconds: 500), 
+    Duration reverseTransitionDuration = const Duration(milliseconds: 500)
+    })
+```
+
+Example,
+
+```
+ Navigator.push(
+            context,
+            CustomPageRoute(
+            axisDirection: AxisDirection.left,
+            child: Page1(),
+        ),
+    );
+
+```
+
+
+
+
+
+
